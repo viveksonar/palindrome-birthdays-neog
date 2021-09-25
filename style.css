@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #377B72;
+}
+
+#gif {
+    display: none;
+    margin-bottom: 0;
+}
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-bottom: 12rem;
+}
+
+img {
+    max-width: 30%;
+    align-self: center;
+    margin-bottom: 1.5rem;
+}
+.header {
+    align-self: center;
+    background-color: var(--primary-color);
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+}
+
+input {
+    max-width: 50%;
+    align-self: center;
+}
+
+label {
+    align-self: center;
+}
+
+button {
+    max-width: 30%;
+    align-self: center;
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+#result {
+    align-self: center;
+}
